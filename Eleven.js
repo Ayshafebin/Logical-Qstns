@@ -22,6 +22,6 @@ function findIndex(arr, str) {
 
   console.log(findIndex(["hi", "edabit", "fgh", "abc"], "fgh")); 
   console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple")) 
-
+  console.log(findIndex(["Red", "blue", "Blue", "Green"], "blue"));
   
   
