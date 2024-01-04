@@ -19,5 +19,5 @@ function findIndex(array, str) {
     return -1;
   }
 
-  console.log(findIndex(["a", "g", "y", "d"], "d"));
+  console.log(findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple"));
   
