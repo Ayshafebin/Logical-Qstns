@@ -11,9 +11,9 @@
 
 
 function findIndex(array, str) {
-    for (let i = 0; i < array.length; i++) {
-      if (arr[i] === str) {
-        return i;
+    for (let j = 0; j < array.length; j++) {
+      if (arr[j] === str) {
+        return j;
       }
     }
     return -1;
