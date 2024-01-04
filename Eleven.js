@@ -10,8 +10,8 @@
 // findIndex(["Pineapple", "Orange", "Grape", "Apple"], "Pineapple") ➞ 0
 
 
-function findIndex(arr, str) {
-    for (let i = 0; i < arr.length; i++) {
+function findIndex(array, str) {
+    for (let i = 0; i < array.length; i++) {
       if (arr[i] === str) {
         return i;
       }
