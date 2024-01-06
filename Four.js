@@ -8,8 +8,8 @@
 
 // getVoteCount({ upvotes: 132, downvotes: 132 }) ➞ 0
 
-const getVoteCount = (vote) => {
-    return vote.upvotes - vote.downvotes;
+const getVoteCount = (votes) => {
+    return votes.upvotes - votes.downvotes;
 }
 console.log(getVoteCount({upvotes : 2, downvotes : 33}));
 
