@@ -7,7 +7,7 @@
 
 // reverse([]) ➞ []
 
-const Reverse = (arr) => {
-    return arr.reverse();
+const Reverse = (array) => {
+    return array.reverse();
 } 
 console.log(Reverse([9, 9, 2, 3, 4]));
